@@ -1,134 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PKS LEGAL</title>
-    <!-- Bootstrap 5 css -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Swiper slider css -->
-    <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-    <!-- Custome css -->
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PKS LEGAL</title>
+        <!-- Bootstrap 5 css -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Swiper slider css -->
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+        <!-- Add Masonry CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
 
-<body>
-    <!-- Header start -->
-    <header>
-        <div class="container">
-            <nav>
+    <body>
+        <!-- Header start -->
+        <header class="header-section">
+            <div class="container">
+                <nav class="navbar-nav">
+                    <div class="row">
+                        <div class="col-xl-2 col-lg-3 position-relative">
+                            <div class="logo-desktop d-none d-lg-block position-absolute">
+                                <img src="assets/images/logos/logo-desktop.svg" alt="Logo" class="w-100">
+                            </div>
+                            <div class="logo-mobile d-lg-none position-absolute">
+                                <img src="assets/images/logos/logo-desktop.svg" alt="Logo" class="w-100">
+                            </div>
+                        </div>
+                        <div class="col-xl-9 col-lg-9">
+                            <div class="menu">
+                                <ul class="navbar-nav-box d-md-flex float-xl-end float-lg-end py-md-4">
+                                    <li class="nav--item"><a class="nav-item-links" href="#">Home</a></li>
+                                    <li class="nav--item"><a class="nav-item-links" href="#">About Us</a></li>
+                                    <li class="nav--item"><a class="nav-item-links" href="#">Services</a></li>
+                                    <li class="nav--item"><a class="nav-item-links" href="#">Testimonials</a></li>
+                                    <li class="nav--item"><a class="nav-item-links" href="#">Partners</a></li>
+                                    <li class="nav--item"><a class="nav-item-links" href="#">Write to Us</a></li>
+                                    <li class="ms-md-5 ms-lg-3 d-block divider-line">|</li>
+                                    <li class="ms-md-5 ms-lg-3">
+                                        <a href="#">
+                                            <img src="assets/images/icons/phone-icon.png" alt="phone">
+                                            <span>+91-7044191141</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="hamburger">
+                                <img src="assets/images/icons/mobile-menu-icon.svg" alt="Mobile menu">
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- Header end -->
+
+        <!-- Banner start -->
+        <section class="banner-section"
+            style="background-image: url('assets/images/bg/bannar-bg.jpg'); background-repeat: no-repeat; background-size: cover;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-8 col-md-7">
+                        <div class="banner-text">
+                            <h2>Expert Legal Consultants</h2>
+                            <h2>Providing Legal Advice </h2>
+                            <div class="since position-relative mb-4">
+                                <h2 class="position-relative since-main-title">Since 1980</h2>
+                            </div>
+                            <p class="pb-4">
+                                At PKS Legal, we take pride in being your trusted legal advisors, offering comprehensive
+                                and
+                                reliable legal solutions tailored to meet your needs. With a commitment to excellence
+                                and a
+                                track record of success, we have been serving clients with utmost dedication since our
+                                inception.
+                            </p>
+                            <div class="d-flex gap-3">
+                                <button class="btn-fill">Get in Touch <img src="assets/images/icons/arrow-1.svg"
+                                        alt="Arrow"></button>
+                                <button class="btn-transparent">Our Services <img src="assets/images/icons/arrow-2.svg"
+                                        alt="Arrow"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-5">
+                        <div class="banner-img position-relative">
+                            <img src="assets/images/banner-model.png" alt="Lady" class="w-100 pt-3 banner-modal-img">
+                            <img src="assets/images/icons/layer-banner-model.svg" alt=""
+                                class="layer-banner-modal w-100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Banner end -->
+
+        <!-- About us start -->
+        <section class="about-section">
+            <div class="container">
                 <div class="row">
-                    <div class="col-xl-3 col-lg-3">
-                        <div class="logo-desktop d-none d-md-block position-absolute">
-                            <img src="assets/images/logos/logo-desktop.svg" alt="Logo" class="w-100">
+                    <div class="col-xl-12 col-md-12">
+                        <div class="about-text text-center">
+                            <h2>
+                                PKS Legal Advocates & Associates <br>
+                                is a law firm in Kolkata
+                            </h2>
+                            <div class="and-modal">&</div>
+                            <h3 class="mb-md-5 mb-lg-4">
+                                WE ARE CATERING TO CRIMINAL, CIVIL, COMPANY, DRT, NDPS <br>
+                                CUSTOMS CONSUMERS, MATRIMONIAL AND TAX CASES <br>
+                                <span>SINCE 1980</span> <br>
+                                REPRESENTING MORE THAN 4000 CASES
+                            </h3>
+                            <button class="btn-transparent d-none d-md-block">Know More <img
+                                    src="assets/images/icons/arrow-1.svg" alt="Arrow"></button>
                         </div>
-                        <div class="logo-mobile d-md-none position-absolute">
-                            <img src="assets/images/logos/logo-desktop.svg" alt="Logo" class="w-50">
-                        </div>
-                    </div>
-                    <div class="col-xl-9 col-lg-9">
-                        <div class="menu">
-                            <ul class="d-md-flex float-xl-end float-lg-end py-md-4">
-                                <li class="ms-md-5 ms-lg-3"><a href="#">Home</a></li>
-                                <li class="ms-md-5 ms-lg-3"><a href="#">About Us</a></li>
-                                <li class="ms-md-5 ms-lg-3"><a href="#">Services</a></li>
-                                <li class="ms-md-5 ms-lg-3"><a href="#">Partners</a></li>
-                                <li class="ms-md-5 ms-lg-3"><a href="#">Write to Us</a></li>
-                                <li class="ms-md-5 ms-lg-3 d-none d-md-block">|</li>
-                                <li class="ms-md-5 ms-lg-3">
-                                    <a href="#">
-                                        <img src="assets/images/icons/phone-icon.png" alt="phone">
-                                        <span>+91-7044191141</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="hamburger">
-                            <img src="assets/images/icons/mobile-menu-icon.svg" alt="Mobile menu">
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
-    <!-- Header end -->
-
-    <!-- Banner start -->
-    <section class="banner-section"
-        style="background-image: url('assets/images/bg/bannar-bg.jpg'); background-repeat: no-repeat; background-size: cover;">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-8 col-lg-8">
-                    <div class="banner-text">
-                        <h2>Expert Legal Consultants</h2>
-                        <h2>Providing Legal Advice </h2>
-                        <div class="since position-relative mb-4">
-                            <h2 class="position-relative">Since 1980</h2>
-                            <!-- <div class="black-bg position-absolute top-50"></div> -->
-                        </div>
-                        <p class="pb-4">
-                            At PKS Legal, we take pride in being your trusted legal advisors, offering comprehensive and
-                            reliable legal solutions tailored to meet your needs. With a commitment to excellence and a
-                            track record of success, we have been serving clients with utmost dedication since our
-                            inception.
-                        </p>
-                        <div class="d-flex gap-3">
-                            <button class="btn-fill">Get in Touch <img src="assets/images/icons/arrow-1.svg"
-                                    alt="Arrow"></button>
-                            <button class="btn-transparent">Our Services <img src="assets/images/icons/arrow-2.svg"
-                                    alt="Arrow"></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4">
-                    <div class="banner-img">
-                        <img src="assets/images/bg/lady.png" alt="Lady" class="w-100 pt-3">
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Banner end -->
+        </section>
+        <!-- About us end -->
 
-    <!-- About us start -->
-    <section class="about-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12 col-md-12">
-                    <div class="about-text text-center">
-                        <h2>
-                            PKS Legal Advocates & Associates <br>
-                            is a law firm in Kolkata
-                        </h2>
-                        <img src="assets/images/icons/amp.png" alt="&" class="py-3">
-                        <h3 class="mb-md-5 mb-lg-4 d-none d-md-block">
-                            WE ARE CATERING TO CRIMINAL, CIVIL, COMPANY, DRT, NDPS <br>
-                            CUSTOMS CONSUMERS, MATRIMONIAL AND TAX CASES <br>
-                            <span>SINCE 1980</span> <br>
-                            REPRESENTING MORE THAN 4000 CASES
-                        </h3>
-                        <h3 class="mb-md-5 mb-lg-4 d-md-none">
-                            WE ARE CATERING TO CRIMINAL, CIVIL, COMPANY, DRT, NDPS
-                            CUSTOMS CONSUMERS, MATRIMONIAL AND TAX CASES <br>
-                            <span>SINCE 1980</span> <br>
-                            REPRESENTING MORE THAN 4000 CASES
-                        </h3>
-                        <button class="btn-transparent d-none d-md-block">Know More <img
-                                src="assets/images/icons/arrow-1.svg" alt="Arrow"></button>
+        <!-- Service section start -->
+        <section class="service-section d-none d-md-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-head text-center pb-4">
+                            <h2 class="section-title">OUR SERVICES</h2>
+                            <p class="section-title-para">
+                                Our firm provides comprehensive legal services ranging across Criminal, Civil,<br>
+                                Company,
+                                Matrimonial Issues & Tax Cases in West Bengal & All over India
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center pb-5">
+                    <div class="col-xl-3 col-md-4 ">
+                        <div class="service-wrapper text-center bg-white py-5 px-3 mb-4">
+                            <div class="img-icons-box">
+                                <img src="assets/images/icons/criminal-cases.svg" alt="Service" class="pb-0">
+                            </div>
+                            <h4 class="mb-lg-3">Criminal Cases</h4>
+                            <p>
+                                Our team of experienced criminal defense attorneys is here to provide you with
+                                unwavering
+                                support and expert legal representation throughout the entire process.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-4 ">
+                        <div class="service-wrapper text-center bg-white py-5 px-3 mb-4">
+                            <div class="img-icons-box">
+                                <img src="assets/images/icons/chivil-cases.svg" alt="Service" class="pb-0">
+                            </div>
+                            <h4 class="mb-lg-3">Civil Cases</h4>
+                            <p>
+                                Our team of experienced criminal defense attorneys is here to provide you with
+                                unwavering
+                                support and expert legal representation throughout the entire process.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-4 ">
+                        <div class="service-wrapper text-center bg-white py-5 px-3 mb-4">
+                            <div class="img-icons-box">
+                                <img src="assets/images/icons/company-cases.svg" alt="Service" class="pb-0">
+                            </div>
+                            <h4 class="mb-lg-3">Company Matters</h4>
+                            <p>
+                                Our team of experienced criminal defense attorneys is here to provide you with
+                                unwavering
+                                support and expert legal representation throughout the entire process.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-4 ">
+                        <div class="service-wrapper text-center bg-white py-5 px-3 mb-4">
+                            <div class="img-icons-box">
+                                <img src="assets/images/icons/tax-cases.svg" alt="Service" class="pb-0">
+                            </div>
+                            <h4 class="mb-lg-3">Tax Casses</h4>
+                            <p>
+                                Our team of experienced criminal defense attorneys is here to provide you with
+                                unwavering
+                                support and expert legal representation throughout the entire process.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-4 ">
+                        <div class="service-wrapper text-center bg-white py-5 px-3 mb-4">
+                            <div class="img-icons-box">
+                                <img src="assets/images/icons/dart-matter.svg" alt="Service" class="pb-0">
+                            </div>
+                            <h4 class="mb-lg-3">DRT Matters</h4>
+                            <p>
+                                Our team of experienced criminal defense attorneys is here to provide you with
+                                unwavering
+                                support and expert legal representation throughout the entire process.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-4 ">
+                        <div class="service-wrapper text-center bg-white py-5 px-3 mb-4">
+                            <div class="img-icons-box">
+                                <img src="assets/images/icons/ndps-matter.svg" alt="Service" class="pb-0">
+                            </div>
+                            <h4 class="mb-lg-3">NDPS Matters</h4>
+                            <p>
+                                Our team of experienced criminal defense attorneys is here to provide you with
+                                unwavering
+                                support and expert legal representation throughout the entire process.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-4 ">
+                        <div class="service-wrapper text-center bg-white py-5 px-3 mb-4">
+                            <div class="img-icons-box">
+                                <img src="assets/images/icons/mattrimonial-matter.svg" alt="Service" class="pb-0">
+                            </div>
+                            <h4 class="mb-lg-3">Matrimonial Cases</h4>
+                            <p>
+                                Our team of experienced criminal defense attorneys is here to provide you with
+                                unwavering
+                                support and expert legal representation throughout the entire process.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-4 ">
+                        <div class="service-wrapper text-center bg-white py-5 px-3 mb-4">
+                            <div class="img-icons-box">
+                                <img src="assets/images/icons/customs-cases.svg" alt="Service" class="pb-0">
+                            </div>
+                            <h4 class="mb-lg-3">Customs Casses</h4>
+                            <p>
+                                Our team of experienced criminal defense attorneys is here to provide you with
+                                unwavering
+                                support and expert legal representation throughout the entire process.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="service-button text-center">
+                        <button class="btn-transparent">Learn more <img src="assets/images/icons/arrow-1.svg"
+                                alt="Arrow"></button>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- About us end -->
+        </section>
+        <!-- Service section end -->
 
-    <!-- Service section start -->
-    <section class="service-section d-none d-md-block">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
+        <!-- Service section for mobile start -->
+        <section class="service-section d-md-none">
+            <div class="container">
+                <div class="row">
                     <div class="section-head text-center pb-4">
                         <h2 class="section-title">OUR SERVICES</h2>
                         <p class="section-title-para">
@@ -137,1093 +266,1236 @@
                         </p>
                     </div>
                 </div>
-            </div>
-            <div class="row pb-5">
-                <div class="col-xl-3 col-md-3">
-                    <div class="service-wrapper text-center bg-white py-5 px-3 mb-4">
-                        <img src="assets/images/icons/service-1.png" alt="Service" class="pb-3">
-                        <h4 class="mb-lg-3">Criminal Cases</h4>
-                        <p>
-                            Our team of experienced criminal defense attorneys is here to provide you with unwavering
-                            support and expert legal representation throughout the entire process.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-3">
-                    <div class="service-wrapper text-center bg-white py-5 px-3 mb-4">
-                        <img src="assets/images/icons/service-2.png" alt="Service" class="pb-3">
-                        <h4 class="mb-lg-3">Civil Cases</h4>
-                        <p>
-                            Our team of experienced criminal defense attorneys is here to provide you with unwavering
-                            support and expert legal representation throughout the entire process.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-3">
-                    <div class="service-wrapper text-center bg-white py-5 px-3 mb-4">
-                        <img src="assets/images/icons/service-3.png" alt="Service" class="pb-3">
-                        <h4 class="mb-lg-3">Company Matters</h4>
-                        <p>
-                            Our team of experienced criminal defense attorneys is here to provide you with unwavering
-                            support and expert legal representation throughout the entire process.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-3">
-                    <div class="service-wrapper text-center bg-white py-5 px-3 mb-4">
-                        <img src="assets/images/icons/service-4.png" alt="Service" class="pb-3">
-                        <h4 class="mb-lg-3">Tax Casses</h4>
-                        <p>
-                            Our team of experienced criminal defense attorneys is here to provide you with unwavering
-                            support and expert legal representation throughout the entire process.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-3">
-                    <div class="service-wrapper text-center bg-white py-5 px-3 mb-4">
-                        <img src="assets/images/icons/service-5.png" alt="Service" class="pb-3">
-                        <h4 class="mb-lg-3">DRT Matters</h4>
-                        <p>
-                            Our team of experienced criminal defense attorneys is here to provide you with unwavering
-                            support and expert legal representation throughout the entire process.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-3">
-                    <div class="service-wrapper text-center bg-white py-5 px-3 mb-4">
-                        <img src="assets/images/icons/service-6.png" alt="Service" class="pb-3">
-                        <h4 class="mb-lg-3">NDPS Matters</h4>
-                        <p>
-                            Our team of experienced criminal defense attorneys is here to provide you with unwavering
-                            support and expert legal representation throughout the entire process.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-3">
-                    <div class="service-wrapper text-center bg-white py-5 px-3 mb-4">
-                        <img src="assets/images/icons/service-7.png" alt="Service" class="pb-3">
-                        <h4 class="mb-lg-3">Matrimonial Cases</h4>
-                        <p>
-                            Our team of experienced criminal defense attorneys is here to provide you with unwavering
-                            support and expert legal representation throughout the entire process.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-3">
-                    <div class="service-wrapper text-center bg-white py-5 px-3 mb-4">
-                        <img src="assets/images/icons/service-8.png" alt="Service" class="pb-3">
-                        <h4 class="mb-lg-3">Customs Casses</h4>
-                        <p>
-                            Our team of experienced criminal defense attorneys is here to provide you with unwavering
-                            support and expert legal representation throughout the entire process.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="service-button text-center">
-                    <button class="btn-transparent">Learn more <img src="assets/images/icons/arrow-1.svg"
-                            alt="Arrow"></button>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Service section end -->
-
-    <!-- Service section for mobile start -->
-    <section class="service-section d-md-none">
-        <div class="container">
-            <div class="row">
-                <div class="section-head text-center pb-4">
-                    <h2 class="section-title">OUR SERVICES</h2>
-                    <p class="section-title-para">
-                        Our firm provides comprehensive legal services ranging across Criminal, Civil,<br> Company,
-                        Matrimonial Issues & Tax Cases in West Bengal & All over India
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <!-- Swiper -->
-                <div class="swiper serviceSwiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="service-wrapper text-center bg-white py-5 px-3 mb-4">
-                                <img src="assets/images/icons/service-1.png" alt="Service" class="pb-3">
-                                <h4>Criminal Cases</h4>
-                                <p>
-                                    Our team of experienced criminal defense attorneys is here to provide you with
-                                    unwavering
-                                    support and expert legal representation throughout the entire process.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="service-wrapper text-center bg-white py-5 px-3 mb-4">
-                                <img src="assets/images/icons/service-2.png" alt="Service" class="pb-3">
-                                <h4>Civil Cases</h4>
-                                <p>
-                                    Our team of experienced criminal defense attorneys is here to provide you with
-                                    unwavering
-                                    support and expert legal representation throughout the entire process.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="service-wrapper text-center bg-white py-5 px-3 mb-4">
-                                <img src="assets/images/icons/service-3.png" alt="Service" class="pb-3">
-                                <h4>Company Matters</h4>
-                                <p>
-                                    Our team of experienced criminal defense attorneys is here to provide you with
-                                    unwavering
-                                    support and expert legal representation throughout the entire process.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="service-wrapper text-center bg-white py-5 px-3 mb-4">
-                                <img src="assets/images/icons/service-4.png" alt="Service" class="pb-3">
-                                <h4>Tax Casses</h4>
-                                <p>
-                                    Our team of experienced criminal defense attorneys is here to provide you with
-                                    unwavering
-                                    support and expert legal representation throughout the entire process.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="service-wrapper text-center bg-white py-5 px-3 mb-4">
-                                <img src="assets/images/icons/service-5.png" alt="Service" class="pb-3">
-                                <h4>DRT Matters</h4>
-                                <p>
-                                    Our team of experienced criminal defense attorneys is here to provide you with
-                                    unwavering
-                                    support and expert legal representation throughout the entire process.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="service-wrapper text-center bg-white py-5 px-3 mb-4">
-                                <img src="assets/images/icons/service-6.png" alt="Service" class="pb-3">
-                                <h4>NDPS Matters</h4>
-                                <p>
-                                    Our team of experienced criminal defense attorneys is here to provide you with
-                                    unwavering
-                                    support and expert legal representation throughout the entire process.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="service-wrapper text-center bg-white py-5 px-3 mb-4">
-                                <img src="assets/images/icons/service-7.png" alt="Service" class="pb-3">
-                                <h4>Matrimonial Cases</h4>
-                                <p>
-                                    Our team of experienced criminal defense attorneys is here to provide you with
-                                    unwavering
-                                    support and expert legal representation throughout the entire process.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="service-wrapper text-center bg-white py-5 px-3 mb-4">
-                                <img src="assets/images/icons/service-8.png" alt="Service" class="pb-3">
-                                <h4>Customs Casses</h4>
-                                <p>
-                                    Our team of experienced criminal defense attorneys is here to provide you with
-                                    unwavering
-                                    support and expert legal representation throughout the entire process.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Service section for mobile end -->
-
-    <!-- Why us start -->
-    <section class="why-us-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-5">
-                    <div class="section-head text-md-start text-center pb-4">
-                        <h2 class="section-title">WHY CHOOSE US</h2>
-                        <p class="section-title-para">
-                            At PK Legal, we are committed to providing you with exceptional legal representation and
-                            unwavering support. With a wealth of experience, an efficient work process, and specialized
-                            legal teams, we are here to stand by your side and navigate the complexities of the legal
-                            system on your behalf.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-xl-7">
-                    <div class="why-us-content">
-                        <ul>
-                            <li>
-                                <div class="d-flex">
-                                    <div>
-                                        <img src="assets/images/icons/tick.png">
-                                    </div>
-                                    <div class="ms-2">
-                                        <span class="fw-bold">40 Years of Legal Expertise</span>
-                                        <p>
-                                            With four decades of experience in the legal field, we take pride in our
-                                            extensive
-                                            knowledge and proven track record of handling a diverse range of cases. Our
-                                            expertise extends to matters in the High Court and NCLT Kolkata, as well as
-                                            Metropolitan Magistrate Court cases.
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="d-flex">
-                                    <div>
-                                        <img src="assets/images/icons/tick.png">
-                                    </div>
-                                    <div class="ms-2">
-                                        <span class="fw-bold">Efficiency in Action</span>
-                                        <p>
-                                            Experience a hassle-free process as we strive to deliver the best service
-                                            for all
-                                            your Civil and Criminal matters, including writs and 438 Anticipatory Bail
-                                            matters.
-                                            Our streamlined approach ensures that your case receives the attention it
-                                            deserves,
-                                            with a focus on achieving favorable outcomes.
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="d-flex">
-                                    <div>
-                                        <img src="assets/images/icons/tick.png">
-                                    </div>
-                                    <div class="ms-2">
-                                        <span class="fw-bold">Unparalleled Criminal Defense</span>
-                                        <p>
-                                            When it comes to criminal cases, our team of seasoned lawyers, guided by an
-                                            esteemed
-                                            senior lawyer, is dedicated to fighting for your rights and putting forth
-                                            maximum
-                                            effort to secure victory. Rest assured that your defense is in the hands of
-                                            some of
-                                            the best legal minds in the field.
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="d-flex">
-                                    <div>
-                                        <img src="assets/images/icons/tick.png">
-                                    </div>
-                                    <div class="ms-2">
-                                        <span class="fw-bold">Expertise in Matrimonial and Family Law</span>
-                                        <p>
-                                            For matters concerning matrimonial and family issues, we boast a top-notch
-                                            team of
-                                            lawyers with a strong track record in handling family and divorce matters.
-                                            Our focus
-                                            lies in understanding your unique circumstances and advocating for your best
-                                            interests, ensuring you receive the support you need during these
-                                            challenging times.
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="d-flex">
-                                    <div>
-                                        <img src="assets/images/icons/tick.png">
-                                    </div>
-                                    <div class="ms-2">
-                                        <span class="fw-bold">Best Team of Customs & NDPS Lawyers</span>
-                                        <p>
-                                            Find the Best Advocates for NDPS cases in Kolkata to get out of prison.
-                                            Choose Top
-                                            Criminal Lawyers for Drug trafficking Cases to resolve issues. Victims must
-                                            avoid
-                                            arrests. By all means, Contact Drug abuse lawyers in Kolkata. Bail and Trial
-                                            Attorneys for Narcotic Drugs and Psychotropic Substances Act litigation will
-                                            help
-                                            you. Search for Leading Criminal Lawyers first. Call NDPS Lawyers now.
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="d-flex">
-                                    <div>
-                                        <img src="assets/images/icons/tick.png">
-                                    </div>
-                                    <div class="ms-2">
-                                        <span class="fw-bold">Cyber Crime Specialist Legal team</span>
-                                        <p>
-                                            If a thief has stolen personal information from your computer, a cyber crime
-                                            lawyer
-                                            will work to halt the damage done to you, identify the culprit, and save you
-                                            from
-                                            further victimization. Use Law Rato to hire a top rated cyber crime lawyer
-                                            in
-                                            Kolkata.
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="d-flex">
-                                    <div>
-                                        <img src="assets/images/icons/tick.png">
-                                    </div>
-                                    <div class="ms-2">
-                                        <span class="fw-bold">Best / Top High Court Senior Commerce for Any
-                                            Matter</span>
-                                        <p>
-                                            Law and justice are very important parts of any society. Be it developed or
-                                            developing, every country has a need for justice, fairness and rule of law.
-                                            A large
-                                            part of that institution is Lawyers who help provide justice to the
-                                            citizens.
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Why us end -->
-
-    <!-- Partner section start -->
-    <section class="partner-section">
-        <div class="container">
-            <div class="row">
-                <div class="section-head text-center pb-4">
-                    <h2 class="section-title">OUR PARTNERS</h2>
-                    <p class="section-title-para">
-                        Our Team consists of several advocates and paralegal experts who <br> strive to provide you the
-                        best service tailored to your needs
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="founder-box position-relative text-center">
-                        <img src="assets/images/partners/partner-1.jpg" alt="">
-                        <div class="founder-text position-absolute">
-                            <div class="founder-name">
-                                <h3 class="text-white">Prasanta Kumar Saha</h3>
-                            </div>
-                            <h4>Founder, B.Com. LLB.</h4>
-                            <p>Calcutta High Court</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="section-head text-center pb-4">
-                    <h2 class="section-title text-uppercase">our specs legal association</h2>
-                    <p class="section-title-para">
-                        Our Team consists of several advocates and paralegal experts who strive to <br> provide you the
-                        best service tailored to your needs
-                    </p>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-xl-4 col-md-12">
-                    <div class="partner-box position-relative mb-5 d-none d-md-block">
-                        <img src="assets/images/partners/partner-2.jpg" alt="" class="rounded">
-                        <div class="partner-text text-white text-center p-3 rounded position-absolute">
-                            <h4 class="position-relative mb-3">Debanjan Chakraborty</h4>
-                            <p>Partner, BA. LLB.</p>
-                            <p>Calcutta High Court</p>
-                        </div>
-                    </div>
-                    <!-- For mobile start -->
-                    <div class="partner-box mb-5 d-md-none d-flex">
-                        <img src="assets/images/partners/partner-2.jpg" alt="" class="rounded">
-                        <div class="partner-text2 p-2 text-start d-flex flex-column justify-content-center">
-                            <h4 class="position-relative mb-3">Debanjan Chakraborty</h4>
-                            <p>Partner, BA. LLB.</p>
-                            <p>Calcutta High Court</p>
-                        </div>
-                    </div>
-                    <!-- For mobile end -->
-                </div>
-                <div class="col-xl-4 col-md-12">
-                    <div class="partner-box position-relative mb-5 d-none d-md-block">
-                        <img src="assets/images/partners/partner-3.jpg" alt="" class="rounded">
-                        <div class="partner-text text-white text-center p-3 rounded position-absolute">
-                            <h4 class="position-relative mb-3">Debanjan Chakraborty</h4>
-                            <p>Partner, BA. LLB.</p>
-                            <p>Calcutta High Court</p>
-                        </div>
-                    </div>
-                    <!-- For mobile start -->
-                    <div class="partner-box mb-5 d-md-none d-flex">
-                        <img src="assets/images/partners/partner-3.jpg" alt="" class="rounded">
-                        <div class="partner-text2 p-2 text-start d-flex flex-column justify-content-center">
-                            <h4 class="position-relative mb-3">Debanjan Chakraborty</h4>
-                            <p>Partner, BA. LLB.</p>
-                            <p>Calcutta High Court</p>
-                        </div>
-                    </div>
-                    <!-- For mobile end -->
-                </div>
-                <div class="col-xl-4 col-md-12">
-                    <div class="partner-box position-relative mb-5 d-none d-md-block">
-                        <img src="assets/images/partners/partner-4.jpg" alt="" class="rounded">
-                        <div class="partner-text text-white text-center p-3 px-5 rounded position-absolute">
-                            <h4 class="position-relative mb-3">Arpit Kumar Saha</h4>
-                            <p>Partner, BA. LLB.</p>
-                            <p>Calcutta High Court</p>
-                        </div>
-                    </div>
-                    <!-- For mobile start -->
-                    <div class="partner-box mb-5 d-md-none d-flex">
-                        <img src="assets/images/partners/partner-4.jpg" alt="" class="rounded">
-                        <div class="partner-text2 p-2 text-start d-flex flex-column justify-content-center">
-                            <h4 class="position-relative mb-3">Arpit Kumar Saha</h4>
-                            <p>Partner, BA. LLB.</p>
-                            <p>Calcutta High Court</p>
-                        </div>
-                    </div>
-                    <!-- For mobile end -->
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-3 col-md-3 col-6">
-                    <div class="co-founder text-center">
-                        <img src="assets/images/partners/partner-5.png" class="mb-3 w-100">
-                        <div class="co-founder-name text-center mb-4">
-                            <h4 class="mb-2">Prasanta Kumar Saha</h4>
-                            <p>Partner, BA. LLB.</p>
-                            <p>Calcutta High Court</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-3 col-6">
-                    <div class="co-founder text-center">
-                        <img src="assets/images/partners/partner-6.png" class="mb-3 w-100">
-                        <div class="co-founder-name text-center mb-4">
-                            <h4 class="mb-2">Prasanta Kumar Saha</h4>
-                            <p>Partner, BA. LLB.</p>
-                            <p>Calcutta High Court</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-3 col-6">
-                    <div class="co-founder text-center">
-                        <img src="assets/images/partners/partner-7.png" class="mb-3 w-100">
-                        <div class="co-founder-name text-center mb-4">
-                            <h4 class="mb-2">Prasanta Kumar Saha</h4>
-                            <p>Partner, BA. LLB.</p>
-                            <p>Calcutta High Court</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-3 col-6">
-                    <div class="co-founder text-center">
-                        <img src="assets/images/partners/partner-8.png" class="mb-3 w-100">
-                        <div class="co-founder-name text-center mb-4">
-                            <h4 class="mb-2">Prasanta Kumar Saha</h4>
-                            <p>Partner, BA. LLB.</p>
-                            <p>Calcutta High Court</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Partner section end -->
-
-    <!-- Client section start -->
-    <section class="client-section">
-        <div class="container">
-            <div class="row">
-                <div class="section-head text-center pb-4">
-                    <h2 class="section-title">OUR CLIENTS</h2>
-                    <p class="section-title-para">
-                        We have considerable experience in providing corporate & <br> personal legal advice to our
-                        clients.
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <!-- Swiper -->
-                <div class="swiper clientSwiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="slider-card py-5 px-2">
-                                <img src="assets/images/clients/client-1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="slider-card py-5 px-2">
-                                <img src="assets/images/clients/client-2.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="slider-card py-5 px-2">
-                                <img src="assets/images/clients/client-3.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="slider-card py-5 px-2">
-                                <img src="assets/images/clients/client-4.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="slider-card py-5 px-2">
-                                <img src="assets/images/clients/client-5.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="slider-card py-5 px-2">
-                                <img src="assets/images/clients/client-2.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="slider-card py-5 px-2">
-                                <img src="assets/images/clients/client-3.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="slider-card py-5 px-2">
-                                <img src="assets/images/clients/client-4.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="slider-card py-5 px-2">
-                                <img src="assets/images/clients/client-5.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Client section end -->
-
-    <!-- Clients testimonial start -->
-    <section class="client-testimonial">
-        <div class="container">
-            <div class="row">
-                <div class="section-head text-center pb-4">
-                    <h2 class="section-title text-uppercase">CLIENT testimonials</h2>
-                    <p class="section-title-para">
-                        We value the feedback and experiences shared by our customers, as they help us <br> continuously
-                        improve and ensure our commitment to excellence.
-                    </p>
-                </div>
-            </div>
-            <div class="row d-none d-md-block" data-masonry='{"percentPosition": true }'>
-                <div class="col-xl-4 col-md-6">
-                    <div class="testimonial-card bg-white p-4 m-3">
-                        <h3 class="mb-3">Aaheli Gupta</h3>
-                        <p>
-                            <span>T</span>he best Advocate in Kolkata region with golden heart and he takes
-                            care
-                            of my legal issues with utmost concern and he is so down to earth person. I
-                            always
-                            felt comfortable and gained confidence while reaching to him. He understands the
-                            client’s need and talks about the feasible option to solve our problem. Lastly
-                            he
-                            always charges the nominal fee without any greed and attitude. May Almighty give
-                            you
-                            more strength and opportunity to support the society. Thank you sir!
-                        </p>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6">
-                    <div class="testimonial-card bg-white p-4 m-3">
-                        <h3 class="mb-3">Aaheli Gupta</h3>
-                        <p>
-                            <span>T</span>he best Advocate in Kolkata region with golden heart and he takes
-                            care
-                            of my legal issues with utmost concern and he is so down to earth person. I
-                            always
-                            felt comfortable and gained confidence while reaching to him. He understands the
-                            client’s need and talks about the feasible option to solve our problem. Lastly
-                            he
-                        </p>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6">
-                    <div class="testimonial-card bg-white p-4 m-3">
-                        <h3 class="mb-3">Aaheli Gupta</h3>
-                        <p>
-                            <span>T</span>he best Advocate in Kolkata region with golden heart and he takes
-                            care
-                            of my legal issues with utmost concern and he is so down to earth person. I
-                            always
-                            felt comfortable and gained confidence while reaching to him. He understands the
-                            client’s need and talks about the feasible option to solve our problem. Lastly
-                            he
-                            always charges the nominal fee without any greed and attitude. May Almighty give
-                            you
-                            more strength and opportunity to support the society. Thank you sir!
-                        </p>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6">
-                    <div class="testimonial-card bg-white p-4 m-3">
-                        <h3 class="mb-3">Aaheli Gupta</h3>
-                        <p>
-                            <span>T</span>he best Advocate in Kolkata region with golden heart and he takes
-                            care
-                            of my legal issues with utmost concern and he is so down to earth person. I
-                            always
-                            felt comfortable and gained confidence while reaching to him. He understands the
-                            client’s need and talks about the feasible option to solve our problem. Lastly
-                            he
-                            always charges the nominal fee without any greed and attitude. May Almighty give
-                            you
-                            more strength and opportunity to support the society. Thank you sir!
-                            he
-                            always charges the nominal fee without any greed and attitude. May Almighty give
-                            you
-                            more strength and opportunity to support the society. Thank you sir!
-                        </p>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6">
-                    <div class="testimonial-card bg-white p-4 m-3">
-                        <h3 class="mb-3">Aaheli Gupta</h3>
-                        <p>
-                            <span>T</span>he best Advocate in Kolkata region with golden heart and he takes
-                            care
-                            of my legal issues with utmost concern and he is so down to earth person. I
-                            always
-                            felt comfortable and gained confidence while reaching to him. He understands the
-                            client’s need and talks about the feasible option to solve our problem. Lastly
-                            he
-                            always charges the nominal fee without any greed and attitude. May Almighty give
-                            you
-                            more strength and opportunity to support the society. Thank you sir!
-                        </p>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6">
-                    <div class="testimonial-card bg-white p-4 m-3">
-                        <h3 class="mb-3">Aaheli Gupta</h3>
-                        <p>
-                            <span>T</span>he best Advocate in Kolkata region with golden heart and he takes
-                            care
-                            of my legal issues with utmost concern and he is so down to earth person. I
-                            always
-                            felt comfortable and gained confidence while reaching to him. He understands the
-                            client’s need and talks about the feasible option to solve our problem. Lastly
-                            he
-                            always charges the nominal fee without any greed and attitude. May Almighty give
-                            you
-                            more strength and opportunity to support the society. Thank you sir!
-                        </p>
-                    </div>
-                </div>                    
-            </div>
-
-            <div class="row d-md-none">
-                <!-- Swiper -->
-                <div class="swiper testimonialSwiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="col-xl-4">
-                                <div class="testimonial-card bg-white p-4 m-3">
-                                    <h3 class="mb-3">Aaheli Gupta</h3>
-                                    <p>
-                                        <span>T</span>he best Advocate in Kolkata region with golden heart and he takes
-                                        care
-                                        of my legal issues with utmost concern and he is so down to earth person. I
-                                        always
-                                        felt comfortable and gained confidence while reaching to him. He understands the
-                                        client’s need and talks about the feasible option to solve our problem. Lastly
-                                        he
-                                        always charges the nominal fee without any greed and attitude. May Almighty give
-                                        you
-                                        more strength and opportunity to support the society. Thank you sir!
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="col-xl-4">
-                                <div class="testimonial-card bg-white p-4 m-3">
-                                    <h3 class="mb-3">Keshab Hira</h3>
-                                    <p>
-                                        <span>T</span>he service here is very helpful, professional and prompt. Those in
-                                        authority make sure that the clients are satisfied from the word go. As the
-                                        service
-                                        concerned is related to law the people concerned make it as less hassle-free
-                                        possible and that is a difference.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="col-xl-4">
-                                <div class="testimonial-card bg-white p-4 m-3">
-                                    <h3 class="mb-3">Keshab Hira</h3>
-                                    <p>
-                                        <span>A</span>rpit ji is perfect lawyer for any criminal & Cyber matters. I am
-                                        highly satisfied with the way he handled my all 3 cases. He understand the
-                                        matter
-                                        very carefully & give out of box solutions to it. His client first approach is
-                                        extremely helpful. He supported me in my toughest time. I highly recommend him
-                                        for
-                                        Kolkata & West bengal cases.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="col-xl-4">
-                                <div class="testimonial-card bg-white p-4 m-3">
-                                    <h3 class="mb-3">Sagata Das</h3>
-                                    <p>
-                                        <span>H</span>e is very professional and good at his job.He was so fast in
-                                        providing
-                                        me a deed document and man of his words.Really looking forward to complete many
-                                        more
-                                        legal formalities from him.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="col-xl-4">
-                                <div class="testimonial-card bg-white p-4 m-3">
-                                    <h3 class="mb-3">Abhishek Banerjee</h3>
-                                    <p>
-                                        <span>M</span>r Arpit is a through professional...He dealt our case with utmost
-                                        priority and provided us with the peace of mind. I would highly recommend him to
-                                        my
-                                        peers for legal services and will consult him only , regarding any legal matters
-                                        going forward.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="col-xl-4">
-                                <div class="testimonial-card bg-white p-4 m-3">
-                                    <h3 class="mb-3">Debojeet Das</h3>
-                                    <p>
-                                        <span>M</span>r. Arpit is a legitimate proficient. He took care of our case with
-                                        the
-                                        greatest possible level of desperation and gave us inner serenity. I would
-                                        firmly
-                                        recommend him to my friends for legitimate administrations, and pushing forward,
-                                        I
-                                        will solely counsel him for any lawful worries. Thanks you so much
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Clients testimonial end -->
-
-    <!-- Simple bg start -->
-    <section class="simple-bg">
-        <div>
-            <img src="assets/images/bg/bg.jpg" alt="">
-        </div>
-    </section>
-    <!-- Simple bg end -->
-
-    <!-- Get in touch start-->
-    <section class="get-in-touch">
-        <div class="container">
-            <div class="row pb-4">
-                <div class="section-head text-center pb-4">
-                    <h2 class="section-title">GET IN TOUCH</h2>
-                    <p class="section-title-para d-none d-md-block">
-                        By providing your information below, you consent to our use of the provided details to contact
-                        you for a free <br> and confidential consultation. We assure you that your information will be
-                        treated with the utmost privacy <br> and will not be shared with any third parties without your
-                        explicit consent.
-                    </p>
-                    <p class="section-title-para d-md-none">
-                        By providing your information below, you consent to our use of the provided details to contact
-                        you for a free and confidential consultation. We assure you that your information will be
-                        treated with the utmost privacy and will not be shared with any third parties without your
-                        explicit consent.
-                    </p>
-                </div>
-            </div>
-            <form>
                 <div class="row">
-                    <div class="col-xl-6">
-                        <div class="mb-3">
-                            <label for="formGroupExampleInput" class="form-label">Your Name:</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput">
+                    <!-- Swiper -->
+                    <div class="swiper serviceSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="service-wrapper text-center bg-white py-5 px-3 mb-4">
+                                    <div class="img-icons-box">
+                                        <img src="assets/images/icons/criminal-cases.svg" alt="Service" class="pb-0">
+                                    </div>
+                                    <h4>Criminal Cases</h4>
+                                    <p>
+                                        Our team of experienced criminal defense attorneys is here to provide you with
+                                        unwavering
+                                        support and expert legal representation throughout the entire process.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="service-wrapper text-center bg-white py-5 px-3 mb-4">
+                                    <div class="img-icons-box">
+                                        <img src="assets/images/icons/chivil-cases.svg" alt="Service" class="pb-0">
+                                    </div>
+                                    <h4>Civil Cases</h4>
+                                    <p>
+                                        Our team of experienced criminal defense attorneys is here to provide you with
+                                        unwavering
+                                        support and expert legal representation throughout the entire process.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="service-wrapper text-center bg-white py-5 px-3 mb-4">
+                                    <div class="img-icons-box">
+                                        <img src="assets/images/icons/company-cases.svg" alt="Service" class="pb-0">
+                                    </div>
+                                    <h4>Company Matters</h4>
+                                    <p>
+                                        Our team of experienced criminal defense attorneys is here to provide you with
+                                        unwavering
+                                        support and expert legal representation throughout the entire process.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="service-wrapper text-center bg-white py-5 px-3 mb-4">
+                                    <div class="img-icons-box">
+                                        <img src="assets/images/icons/tax-cases.svg" alt="Service" class="pb-0">
+                                    </div>
+                                    <h4>Tax Casses</h4>
+                                    <p>
+                                        Our team of experienced criminal defense attorneys is here to provide you with
+                                        unwavering
+                                        support and expert legal representation throughout the entire process.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="service-wrapper text-center bg-white py-5 px-3 mb-4">
+                                    <div class="img-icons-box">
+                                        <img src="assets/images/icons/dart-matter.svg" alt="Service" class="pb-0">
+                                    </div>
+                                    <h4>DRT Matters</h4>
+                                    <p>
+                                        Our team of experienced criminal defense attorneys is here to provide you with
+                                        unwavering
+                                        support and expert legal representation throughout the entire process.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="service-wrapper text-center bg-white py-5 px-3 mb-4">
+                                    <div class="img-icons-box">
+                                        <img src="assets/images/icons/ndps-matter.svg" alt="Service" class="pb-0">
+                                    </div>
+                                    <h4>NDPS Matters</h4>
+                                    <p>
+                                        Our team of experienced criminal defense attorneys is here to provide you with
+                                        unwavering
+                                        support and expert legal representation throughout the entire process.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="service-wrapper text-center bg-white py-5 px-3 mb-4">
+                                    <div class="img-icons-box">
+                                        <img src="assets/images/icons/mattrimonial-matter.svg" alt="Service"
+                                            class="pb-0">
+                                    </div>
+                                    <h4>Matrimonial Cases</h4>
+                                    <p>
+                                        Our team of experienced criminal defense attorneys is here to provide you with
+                                        unwavering
+                                        support and expert legal representation throughout the entire process.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="service-wrapper text-center bg-white py-5 px-3 mb-4">
+                                    <div class="img-icons-box">
+                                        <img src="assets/images/icons/customs-cases.svg" alt="Service" class="pb-0">
+                                    </div>
+                                    <h4>Customs Casses</h4>
+                                    <p>
+                                        Our team of experienced criminal defense attorneys is here to provide you with
+                                        unwavering
+                                        support and expert legal representation throughout the entire process.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="mb-3">
-                            <label for="formGroupExampleInput2" class="form-label">Your Phone Number:</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput2">
-                        </div>
-                        <div class="mb-3">
-                            <label for="formGroupExampleInput2" class="form-label">Appoiment for Which
-                                Servervice:</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput2">
-                        </div>
-                    </div>
-                    <div class="col-xl-6">
-                        <div class="mb-3">
-                            <label for="message" class="form-label">Enter your full message:</label>
-                            <textarea class="form-control" id="message" name="text"></textarea>
-                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
                     </div>
                 </div>
-                <div class="row pt-md-5">
-                    <div class="get-touch-button text-center">
-                        <button type="submit" class="btn-fill text-white">Submit</button>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </section>
-    <!-- Get in touch end-->
+            </div>
+        </section>
+        <!-- Service section for mobile end -->
 
-    <!-- Office address start -->
-    <section class="address-section">
-        <div class="container">
-            <div class="row pb-4">
-                <div class="section-head text-center pb-4">
-                    <h2 class="section-title text-uppercase">Our offices</h2>
-                    <p class="section-title-para text-capitalize d-none d-md-block">
-                        If you are looking for any legal advice or have questions, get in touch with <br> us or post
-                        your query using the button on the right
-                    </p>
-                    <p class="section-title-para text-capitalize d-md-none">
-                        If you are looking for any legal advice or have questions, get in touch with us or post
-                        your query using the button on the right
-                    </p>
+        <!-- Why us start -->
+        <section class="why-us-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-5">
+                        <div class="section-head text-md-start text-center pb-4">
+                            <h2 class="section-title">WHY CHOOSE US</h2>
+                            <p class="section-title-para">
+                                At PK Legal, we are committed to providing you with exceptional legal representation and
+                                unwavering support. With a wealth of experience, an efficient work process, and
+                                specialized
+                                legal teams, we are here to stand by your side and navigate the complexities of the
+                                legal
+                                system on your behalf.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-7">
+                        <div class="why-us-content">
+                            <ul>
+                                <li>
+                                    <div class="d-flex">
+                                        <div>
+                                            <img src="assets/images/icons/tick.png">
+                                        </div>
+                                        <div class="ms-2">
+                                            <span class="fw-bold">40 Years of Legal Expertise</span>
+                                            <p>
+                                                With four decades of experience in the legal field, we take pride in our
+                                                extensive
+                                                knowledge and proven track record of handling a diverse range of cases.
+                                                Our
+                                                expertise extends to matters in the High Court and NCLT Kolkata, as well
+                                                as
+                                                Metropolitan Magistrate Court cases.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="d-flex">
+                                        <div>
+                                            <img src="assets/images/icons/tick.png">
+                                        </div>
+                                        <div class="ms-2">
+                                            <span class="fw-bold">Efficiency in Action</span>
+                                            <p>
+                                                Experience a hassle-free process as we strive to deliver the best
+                                                service
+                                                for all
+                                                your Civil and Criminal matters, including writs and 438 Anticipatory
+                                                Bail
+                                                matters.
+                                                Our streamlined approach ensures that your case receives the attention
+                                                it
+                                                deserves,
+                                                with a focus on achieving favorable outcomes.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="d-flex">
+                                        <div>
+                                            <img src="assets/images/icons/tick.png">
+                                        </div>
+                                        <div class="ms-2">
+                                            <span class="fw-bold">Unparalleled Criminal Defense</span>
+                                            <p>
+                                                When it comes to criminal cases, our team of seasoned lawyers, guided by
+                                                an
+                                                esteemed
+                                                senior lawyer, is dedicated to fighting for your rights and putting
+                                                forth
+                                                maximum
+                                                effort to secure victory. Rest assured that your defense is in the hands
+                                                of
+                                                some of
+                                                the best legal minds in the field.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="d-flex">
+                                        <div>
+                                            <img src="assets/images/icons/tick.png">
+                                        </div>
+                                        <div class="ms-2">
+                                            <span class="fw-bold">Expertise in Matrimonial and Family Law</span>
+                                            <p>
+                                                For matters concerning matrimonial and family issues, we boast a
+                                                top-notch
+                                                team of
+                                                lawyers with a strong track record in handling family and divorce
+                                                matters.
+                                                Our focus
+                                                lies in understanding your unique circumstances and advocating for your
+                                                best
+                                                interests, ensuring you receive the support you need during these
+                                                challenging times.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="d-flex">
+                                        <div>
+                                            <img src="assets/images/icons/tick.png">
+                                        </div>
+                                        <div class="ms-2">
+                                            <span class="fw-bold">Best Team of Customs & NDPS Lawyers</span>
+                                            <p>
+                                                Find the Best Advocates for NDPS cases in Kolkata to get out of prison.
+                                                Choose Top
+                                                Criminal Lawyers for Drug trafficking Cases to resolve issues. Victims
+                                                must
+                                                avoid
+                                                arrests. By all means, Contact Drug abuse lawyers in Kolkata. Bail and
+                                                Trial
+                                                Attorneys for Narcotic Drugs and Psychotropic Substances Act litigation
+                                                will
+                                                help
+                                                you. Search for Leading Criminal Lawyers first. Call NDPS Lawyers now.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="d-flex">
+                                        <div>
+                                            <img src="assets/images/icons/tick.png">
+                                        </div>
+                                        <div class="ms-2">
+                                            <span class="fw-bold">Cyber Crime Specialist Legal team</span>
+                                            <p>
+                                                If a thief has stolen personal information from your computer, a cyber
+                                                crime
+                                                lawyer
+                                                will work to halt the damage done to you, identify the culprit, and save
+                                                you
+                                                from
+                                                further victimization. Use Law Rato to hire a top rated cyber crime
+                                                lawyer
+                                                in
+                                                Kolkata.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="d-flex">
+                                        <div>
+                                            <img src="assets/images/icons/tick.png">
+                                        </div>
+                                        <div class="ms-2">
+                                            <span class="fw-bold">Best / Top High Court Senior Commerce for Any
+                                                Matter</span>
+                                            <p>
+                                                Law and justice are very important parts of any society. Be it developed
+                                                or
+                                                developing, every country has a need for justice, fairness and rule of
+                                                law.
+                                                A large
+                                                part of that institution is Lawyers who help provide justice to the
+                                                citizens.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row mb-5 pb-md-5 border-bottom">
-                <div class="col-xl-4 col-6">
-                    <div class="address-box text-center border-end mb-4">
-                        <img src="assets/images/icons/location.png" class="mb-2">
-                        <h4 class="mb-2">Delta House</h4>
-                        <p>Delta House, Lal Dighi, <br>
-                            B.B.D. Bagh, Kolkata, <br>
-                            West Bengal 700001</p>
+        </section>
+        <!-- Why us end -->
+
+        <!-- Partner section start -->
+        <section class="partner-section">
+            <div class="container">
+                <div class="row">
+                    <div class="section-head text-center pb-4">
+                        <h2 class="section-title">OUR PARTNERS</h2>
+                        <p class="section-title-para">
+                            Our Team consists of several advocates and paralegal experts who <br> strive to provide you
+                            the
+                            best service tailored to your needs
+                        </p>
                     </div>
                 </div>
-                <div class="col-xl-4 col-6">
-                    <div class="address-box text-center border-end no-border mb-4">
-                        <img src="assets/images/icons/location.png" class="mb-2">
-                        <h4 class="mb-2">Kalikapur Road</h4>
-                        <p>18/3 Kalikapur Road,<br>
-                            Premises No. 1235, Kolkata,<br>
-                            West Bengal 700099</p>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="founder-box position-relative text-center">
+                            <img src="assets/images/partners/partner-1.jpg" alt="">
+                            <div class="founder-text">
+                                <div class="founder-name">
+                                    <h3 class="text-white">Prasanta Kumar Saha</h3>
+                                </div>
+                                <h4>Founder, B.Com. LLB.</h4>
+                                <p>Calcutta High Court</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-12">
-                    <div class="address-box text-center mb-4">
-                        <img src="assets/images/icons/location.png" class="mb-2">
-                        <h4 class="mb-2">Taltala Office</h4>
-                        <p>38A, Abdul Halim Ln,<br>
-                            Maula Ali, Taltala, Kolkata,<br>
-                            West Bengal 700014</p>
+                <div class="row">
+                    <div class="section-head text-center pb-4">
+                        <h2 class="section-title text-uppercase">our specs legal association</h2>
+                        <p class="section-title-para">
+                            Our Team consists of several advocates and paralegal experts who strive to <br> provide you
+                            the
+                            best service tailored to your needs
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="row mb-2 pb-5">
+
+            <div class="partner-content-wrapper">
                 <div class="container">
-                    <div class="col-xl-12 text-center">
-                        <div class="social-media pb-3 d-md-none">
-                            <ul class="d-flex justify-content-center">
-                                <li><a href="#"><img src="assets/images/icons/fb.png" alt="Facebook"></a></li>
-                                <li><a href="#"><img src="assets/images/icons/insta.png" alt="Instaghram"></a></li>
-                                <li><a href="#"><img src="assets/images/icons/twitter.png" alt="twitter"></a></li>
-                                <li><a href="#"><img src="assets/images/icons/whts-app.png" alt="what's app"></a></li>
-                            </ul>
-                        </div>
-                        <div class="phone-mail pb-md-5">
-                            <h2 class="d-none d-md-block">+91-7044191141 &nbsp; <span>/</span> &nbsp;
-                                info.pkslegal@gmail.com</h2>
-                            <h2 class="d-md-none">+91-7044191141 info.pkslegal@gmail.com</h2>
-                        </div>
-                        <div class="social-media d-none d-md-block">
-                            <ul class="d-flex justify-content-center">
-                                <li><a href="#"><img src="assets/images/icons/fb.png" alt="Facebook"></a></li>
-                                <li><a href="#"><img src="assets/images/icons/insta.png" alt="Instaghram"></a></li>
-                                <li><a href="#"><img src="assets/images/icons/twitter.png" alt="twitter"></a></li>
-                                <li><a href="#"><img src="assets/images/icons/whts-app.png" alt="what's app"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Office address end -->
+                    <div class="row text-center align-items-center justify-content-center">
+                        <div class="col-xl-4 col-md-6 col-12 mb-4 mb-lg-0">
+                            <div class="partner-box position-relative d-none d-md-block">
+                                <img src="assets/images/partners/partner-2.jpg" alt="" class="rounded">
+                                <div class="partner-text text-white text-center p-3 rounded">
+                                    <h4 class="position-relative mb-3">Debanjan Chakraborty</h4>
+                                    <p>Partner, BA. LLB.</p>
+                                    <p>Calcutta High Court</p>
+                                </div>
+                            </div>
 
-    <!-- Map section start -->
-    <section class="map-section">
-        <div class="mapouter">
-            <div class="gmap_canvas"><iframe width="100%" height="534" id="gmap_canvas"
-                    src="https://maps.google.com/maps?q=PKS Legal Advocates and Associates, Law Firm in Kolkata, High Court, CMM Court, Sealdah Court, Alipore Court 18/3 Kalikapur Road, Premises No. 1235, Kolkata, West Bengal 700099, India&t=&z=16&ie=UTF8&iwloc=&output=embed"
-                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
-                    href="https://2yu.co">2yu</a><br>
-                <style>
-                    .mapouter {
-                        position: relative;
-                        text-align: center;
-                        height: 534px;
-                        width: inherit;
-                    }
-                </style><a href="https://embedgooglemap.2yu.co">html embed google map</a>
-                <style>
-                    .gmap_canvas {
-                        overflow: hidden;
-                        background: none !important;
-                        height: 534px;
-                        width: inherit;
-                    }
-                </style>
-            </div>
-        </div>
-    </section>
-    <!-- Map section end -->
-
-    <!-- Footer start -->
-    <footer class="position-relative">
-        <!-- Footer links start -->
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="footer-wrapper">
-                        <div class="footer-logo position-absolute">
-                            <img src="assets/images/logos/footer-logo.jpg" class="w-100">
                         </div>
-                        <div class="footer-links py-3">
-                            <ul class="d-flex justify-content-center">
-                                <li class="me-xl-3 me-md-2"><a href="#">Home</a></li>
-                                <li class="me-xl-3 me-md-2">|</li>
-                                <li class="me-xl-3 me-md-2"><a href="#">About Us</a></li>
-                                <li class="me-xl-3 me-md-2">|</li>
-                                <li class="me-xl-3 me-md-2"><a href="#">Services</a></li>
-                                <li class="me-xl-3 me-md-2">|</li>
-                                <li class="me-xl-3 me-md-2"><a href="#">Customer Reviews</a></li>
-                                <li class="me-xl-3 me-md-2">|</li>
-                                <li class="me-xl-3 me-md-2"><a href="#">Partners</a></li>
-                                <li class="me-xl-3 me-md-2">|</li>
-                                <li class="me-xl-3 me-md-2"><a href="#">Write to Us</a></li>
-                                <li class="me-xl-3 me-md-2">|</li>
-                                <li class="me-xl-3 me-md-2 d-none d-md-block"><a href="#">Book Appointment</a></li>
-                                <li class="me-xl-3 me-md-2">|</li>
-                                <li><a href="#">Privacy Policy</a></li>
-                            </ul>
+                        <div class="col-xl-4 col-md-6 col-12 mb-4 mb-lg-0">
+                            <div class="partner-box position-relative d-none d-md-block">
+                                <img src="assets/images/partners/partner-3.jpg" alt="" class="rounded">
+                                <div class="partner-text text-white text-center p-3 rounded">
+                                    <h4 class="position-relative mb-3">Debanjan Chakraborty</h4>
+                                    <p>Partner, BA. LLB.</p>
+                                    <p>Calcutta High Court</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-xl-4 col-md-6 col-12 mb-4 mb-lg-0">
+                            <div class="partner-box position-relative d-none d-md-block">
+                                <img src="assets/images/partners/partner-4.jpg" alt="" class="rounded">
+                                <div class="partner-text text-white text-center p-3 px-5 rounded">
+                                    <h4 class="position-relative mb-3">Arpit Kumar Saha</h4>
+                                    <p>Partner, BA. LLB.</p>
+                                    <p>Calcutta High Court</p>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- Footer links end -->
+            <div class="ceo-founder-box-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-3 col-md-6 col-6">
+                            <div class="co-founder text-center">
+                                <img src="assets/images/partners/partner-5.png" class="mb-3 w-100">
+                                <div class="co-founder-name text-center mb-4">
+                                    <h4 class="mb-2">Prasanta Kumar Saha</h4>
+                                    <p>Partner, BA. LLB.</p>
+                                    <p>Calcutta High Court</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6 col-6">
+                            <div class="co-founder text-center">
+                                <img src="assets/images/partners/partner-6.png" class="mb-3 w-100">
+                                <div class="co-founder-name text-center mb-4">
+                                    <h4 class="mb-2">Prasanta Kumar Saha</h4>
+                                    <p>Partner, BA. LLB.</p>
+                                    <p>Calcutta High Court</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6 col-6">
+                            <div class="co-founder text-center">
+                                <img src="assets/images/partners/partner-7.png" class="mb-3 w-100">
+                                <div class="co-founder-name text-center mb-4">
+                                    <h4 class="mb-2">Prasanta Kumar Saha</h4>
+                                    <p>Partner, BA. LLB.</p>
+                                    <p>Calcutta High Court</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6 col-6">
+                            <div class="co-founder text-center">
+                                <img src="assets/images/partners/partner-8.png" class="mb-3 w-100">
+                                <div class="co-founder-name text-center mb-4">
+                                    <h4 class="mb-2">Prasanta Kumar Saha</h4>
+                                    <p>Partner, BA. LLB.</p>
+                                    <p>Calcutta High Court</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Partner section end -->
 
-        <!-- Copyright start -->
-        <div class="copy-right text-center d-flex justify-content-center align-items-center">
-            PKS Legal Advocates & Associates 2023. All Rights Reserved
-        </div>
-        <!-- Copyright end -->
-    </footer>
-    <!-- Footer end -->
+        <!-- Client section start -->
+        <section class="client-section">
+            <div class="container">
+                <div class="row">
+                    <div class="section-head text-center pb-4">
+                        <h2 class="section-title">OUR CLIENTS</h2>
+                        <p class="section-title-para">
+                            We have considerable experience in providing corporate & <br> personal legal advice to our
+                            clients.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Swiper -->
+                    <div class="swiper clientSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="slider-card py-5 px-2">
+                                    <img src="assets/images/clients/client-1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider-card py-5 px-2">
+                                    <img src="assets/images/clients/client-2.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider-card py-5 px-2">
+                                    <img src="assets/images/clients/client-3.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider-card py-5 px-2">
+                                    <img src="assets/images/clients/client-4.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider-card py-5 px-2">
+                                    <img src="assets/images/clients/client-5.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider-card py-5 px-2">
+                                    <img src="assets/images/clients/client-2.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider-card py-5 px-2">
+                                    <img src="assets/images/clients/client-3.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider-card py-5 px-2">
+                                    <img src="assets/images/clients/client-4.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider-card py-5 px-2">
+                                    <img src="assets/images/clients/client-5.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Client section end -->
+
+        <!-- Clients testimonial start -->
+        <section class="testimonials-section">
+            <div class="container my-5">
+                <div class="row">
+                    <div class="section-head text-center pb-4">
+                        <h2 class="section-title text-uppercase">CLIENT testimonials</h2>
+                        <p class="section-title-para">
+                            We value the feedback and experiences shared by our customers, as they help us <br>
+                            continuously
+                            improve and ensure our commitment to excellence.
+                        </p>
+                    </div>
+                </div>
+                <!-- Swiper Slider -->
+                <div class="swiper-container swiper-testi-slider-desktop d-none d-lg-block">
+                    <div class="swiper-wrapper">
+                        <!-- Slide 1 -->
+                        <div class="swiper-slide">
+                            <!-- Masonry grid for Slide 1 -->
+                            <div class="row" id="masonry-container-1" data-masonry='{ "percentPosition": true }'>
+                                <!-- Add 6 Masonry items for Slide 1 -->
+                                <div class="col-xl-4 col-md-6 masonry-item mb-4">
+                                    <div class="testimonial-card bg-white p-4">
+                                        <h3 class="mb-3">Aaheli Gupta</h3>
+                                        <p>
+                                            <span>T</span>he best Advocate in Kolkata region with golden heart and he
+                                            takes
+                                            care
+                                            of my legal issues with utmost concern and he is so down to earth person. I
+                                            always
+                                            felt comfortable and gained confidence while reaching to him. He understands
+                                            the
+                                            client’s need and talks about the feasible option to solve our problem.
+                                            Lastly
+                                            he
+                                            always charges the nominal fee without any greed and attitude. May Almighty
+                                            give
+                                            you
+                                            more strength and opportunity to support the society. Thank you sir!
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6 masonry-item mb-4">
+                                    <div class="testimonial-card bg-white p-4">
+                                        <h3 class="mb-3">Aaheli Gupta</h3>
+                                        <p>
+                                            <span>T</span>he best Advocate in Kolkata region with golden heart and he
+                                            takes
+                                            care
+                                            of my legal issues with utmost concern and he is so down to earth person. I
+                                            always
+                                            felt comfortable and gained confidence while reaching to him. He understands
+                                            the
+                                            client’s need and talks about the feasible option to solve our problem.
+                                            Lastly
+                                            he
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6 masonry-item mb-4">
+                                    <div class="testimonial-card bg-white p-4">
+                                        <h3 class="mb-3">Aaheli Gupta</h3>
+                                        <p>
+                                            <span>T</span>he best Advocate in Kolkata region with golden heart and he
+                                            takes
+                                            care
+                                            of my legal issues with utmost concern and he is so down to earth person. I
+                                            always
+                                            felt comfortable and gained confidence while reaching to him. He understands
+                                            the
+                                            client’s need and talks about the feasible option to solve our problem.
+                                            Lastly
+                                            he
+                                            always charges the nominal fee without any greed and attitude. May Almighty
+                                            give
+                                            you
+                                            more strength and opportunity to support the society. Thank you sir!
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6 masonry-item mb-4">
+                                    <div class="testimonial-card bg-white p-4">
+                                        <h3 class="mb-3">Aaheli Gupta</h3>
+                                        <p>
+                                            <span>T</span>he best Advocate in Kolkata region with golden heart and he
+                                            takes
+                                            care
+                                            of my legal issues with utmost concern and he is so down to earth person. I
+                                            always
+                                            felt comfortable and gained confidence while reaching to him. He understands
+                                            the
+                                            client’s need and talks about the feasible option to solve our problem.
+                                            Lastly
+                                            he
+                                            always charges the nominal fee without any greed and attitude. May Almighty
+                                            give
+                                            you
+                                            more strength and opportunity to support the society. Thank you sir!
+                                            he
+                                            always charges the nominal fee without any greed and attitude. May Almighty
+                                            give
+                                            you
+                                            more strength and opportunity to support the society. Thank you sir!
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6 masonry-item mb-4">
+                                    <div class="testimonial-card bg-white p-4">
+                                        <h3 class="mb-3">Aaheli Gupta</h3>
+                                        <p>
+                                            <span>T</span>he best Advocate in Kolkata region with golden heart and he
+                                            takes
+                                            care
+                                            of my legal issues with utmost concern and he is so down to earth person. I
+                                            always
+                                            felt comfortable and gained confidence while reaching to him. He understands
+                                            the
+                                            client’s need and talks about the feasible option to solve our problem.
+                                            Lastly
+                                            he
+                                            always charges the nominal fee without any greed and attitude. May Almighty
+                                            give
+                                            you
+                                            more strength and opportunity to support the society. Thank you sir!
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6 masonry-item mb-4">
+                                    <div class="testimonial-card bg-white p-4">
+                                        <h3 class="mb-3">Aaheli Gupta</h3>
+                                        <p>
+                                            <span>T</span>he best Advocate in Kolkata region with golden heart and he
+                                            takes
+                                            care
+                                            of my legal issues with utmost concern and he is so down to earth person. I
+                                            always
+                                            felt comfortable and gained confidence while reaching to him. He understands
+                                            the
+                                            client’s need and talks about the feasible option to solve our problem.
+                                            Lastly
+                                            he
+                                            always charges the nominal fee without any greed and attitude. May Almighty
+                                            give
+                                            you
+                                            more strength and opportunity to support the society. Thank you sir!
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- Add more Masonry items as needed -->
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <!-- Masonry grid for Slide 2 -->
+                            <div class="row" id="masonry-container-2" data-masonry='{ "percentPosition": true }'>
+                                <!-- Add 6 Masonry items for Slide 1 -->
+                                <div class="col-xl-4 col-md-6 masonry-item mb-4">
+                                    <div class="testimonial-card bg-white p-4">
+                                        <h3 class="mb-3">Aaheli Gupta</h3>
+                                        <p>
+                                            <span>T</span>he best Advocate in Kolkata region with golden heart and he
+                                            takes
+                                            care
+                                            of my legal issues with utmost concern and he is so down to earth person. I
+                                            always
+                                            felt comfortable and gained confidence while reaching to him. He understands
+                                            the
+                                            client’s need and talks about the feasible option to solve our problem.
+                                            Lastly
+                                            he
+                                            always charges the nominal fee without any greed and attitude. May Almighty
+                                            give
+                                            you
+                                            more strength and opportunity to support the society. Thank you sir!
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6 masonry-item mb-4">
+                                    <div class="testimonial-card bg-white p-4">
+                                        <h3 class="mb-3">Aaheli Gupta</h3>
+                                        <p>
+                                            <span>T</span>he best Advocate in Kolkata region with golden heart and he
+                                            takes
+                                            care
+                                            of my legal issues with utmost concern and he is so down to earth person. I
+                                            always
+                                            felt comfortable and gained confidence while reaching to him. He understands
+                                            the
+                                            client’s need and talks about the feasible option to solve our problem.
+                                            Lastly
+                                            he
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6 masonry-item mb-4">
+                                    <div class="testimonial-card bg-white p-4">
+                                        <h3 class="mb-3">Aaheli Gupta</h3>
+                                        <p>
+                                            <span>T</span>he best Advocate in Kolkata region with golden heart and he
+                                            takes
+                                            care
+                                            of my legal issues with utmost concern and he is so down to earth person. I
+                                            always
+                                            felt comfortable and gained confidence while reaching to him. He understands
+                                            the
+                                            client’s need and talks about the feasible option to solve our problem.
+                                            Lastly
+                                            he
+                                            always charges the nominal fee without any greed and attitude. May Almighty
+                                            give
+                                            you
+                                            more strength and opportunity to support the society. Thank you sir!
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6 masonry-item mb-4">
+                                    <div class="testimonial-card bg-white p-4">
+                                        <h3 class="mb-3">Aaheli Gupta</h3>
+                                        <p>
+                                            <span>T</span>he best Advocate in Kolkata region with golden heart and he
+                                            takes
+                                            care
+                                            of my legal issues with utmost concern and he is so down to earth person. I
+                                            always
+                                            felt comfortable and gained confidence while reaching to him. He understands
+                                            the
+                                            client’s need and talks about the feasible option to solve our problem.
+                                            Lastly
+                                            he
+                                            always charges the nominal fee without any greed and attitude. May Almighty
+                                            give
+                                            you
+                                            more strength and opportunity to support the society. Thank you sir!
+                                            he
+                                            always charges the nominal fee without any greed and attitude. May Almighty
+                                            give
+                                            you
+                                            more strength and opportunity to support the society. Thank you sir!
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6 masonry-item mb-4">
+                                    <div class="testimonial-card bg-white p-4">
+                                        <h3 class="mb-3">Aaheli Gupta</h3>
+                                        <p>
+                                            <span>T</span>he best Advocate in Kolkata region with golden heart and he
+                                            takes
+                                            care
+                                            of my legal issues with utmost concern and he is so down to earth person. I
+                                            always
+                                            felt comfortable and gained confidence while reaching to him. He understands
+                                            the
+                                            client’s need and talks about the feasible option to solve our problem.
+                                            Lastly
+                                            he
+                                            always charges the nominal fee without any greed and attitude. May Almighty
+                                            give
+                                            you
+                                            more strength and opportunity to support the society. Thank you sir!
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6 masonry-item mb-4">
+                                    <div class="testimonial-card bg-white p-4">
+                                        <h3 class="mb-3">Aaheli Gupta</h3>
+                                        <p>
+                                            <span>T</span>he best Advocate in Kolkata region with golden heart and he
+                                            takes
+                                            care
+                                            of my legal issues with utmost concern and he is so down to earth person. I
+                                            always
+                                            felt comfortable and gained confidence while reaching to him. He understands
+                                            the
+                                            client’s need and talks about the feasible option to solve our problem.
+                                            Lastly
+                                            he
+                                            always charges the nominal fee without any greed and attitude. May Almighty
+                                            give
+                                            you
+                                            more strength and opportunity to support the society. Thank you sir!
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- Add more Masonry items as needed -->
+                            </div>
+                        </div>
+
+                        <!-- Add more swiper slides and Masonry grids for additional slides -->
+                    </div>
+                    <!-- Add swiper navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <!-- ===================== -->
+                <!-- Swiper Slider -->
+                <div class="swiper-container swiper-testi-slider-mobile d-block d-lg-none">
+                    <div class="swiper-wrapper">
+                        <!-- Slide 1 -->
+                        <div class="swiper-slide">
+                            <!-- Masonry grid for Slide 1 -->
+                            <div class="row">
+                                <div class="col-xl-4 col-md-6 masonry-item mb-4">
+                                    <div class="testimonial-card bg-white p-4">
+                                        <h3 class="mb-3">Aaheli Gupta</h3>
+                                        <p>
+                                            <span>T</span>he best Advocate in Kolkata region with golden heart and he
+                                            takes
+                                            care
+                                            of my legal issues with utmost concern and he is so down to earth person. I
+                                            always
+                                            felt comfortable and gained confidence while reaching to him. He understands
+                                            the
+                                            client’s need and talks about the feasible option to solve our problem.
+                                            Lastly
+                                            he
+                                            always charges the nominal fee without any greed and attitude. May Almighty
+                                            give
+                                            you
+                                            more strength and opportunity to support the society. Thank you sir!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- Masonry grid for Slide 1 -->
+                            <div class="row">
+                                <div class="col-xl-4 col-md-6 masonry-item mb-4">
+                                    <div class="testimonial-card bg-white p-4">
+                                        <h3 class="mb-3">Aaheli Gupta</h3>
+                                        <p>
+                                            <span>T</span>he best Advocate in Kolkata region with golden heart and he
+                                            takes
+                                            care
+                                            of my legal issues with utmost concern and he is so down to earth person. I
+                                            always
+                                            felt comfortable and gained confidence while reaching to him. He understands
+                                            the
+                                            client’s need and talks about the feasible option to solve our problem.
+                                            Lastly
+                                            he
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- Masonry grid for Slide 1 -->
+                            <div class="row">
+                                <div class="col-xl-4 col-md-6 masonry-item mb-4">
+                                    <div class="testimonial-card bg-white p-4">
+                                        <h3 class="mb-3">Aaheli Gupta</h3>
+                                        <p>
+                                            <span>T</span>he best Advocate in Kolkata region with golden heart and he
+                                            takes
+                                            care
+                                            of my legal issues with utmost concern and he is so down to earth person. I
+                                            always
+                                            felt comfortable and gained confidence while reaching to him. He understands
+                                            the
+                                            client’s need and talks about the feasible option to solve our problem.
+                                            Lastly
+                                            he
+                                            always charges the nominal fee without any greed and attitude. May Almighty
+                                            give
+                                            you
+                                            more strength and opportunity to support the society. Thank you sir!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- Masonry grid for Slide 1 -->
+                            <div class="row">
+                                <div class="col-xl-4 col-md-6 masonry-item mb-4">
+                                    <div class="testimonial-card bg-white p-4">
+                                        <h3 class="mb-3">Aaheli Gupta</h3>
+                                        <p>
+                                            <span>T</span>he best Advocate in Kolkata region with golden heart and he
+                                            takes
+                                            care
+                                            of my legal issues with utmost concern and he is so down to earth person. I
+                                            always
+                                            felt comfortable and gained confidence while reaching to him. He understands
+                                            the
+                                            client’s need and talks about the feasible option to solve our problem.
+                                            Lastly
+                                            he
+                                            always charges the nominal fee without any greed and attitude. May Almighty
+                                            give
+                                            you
+                                            more strength and opportunity to support the society. Thank you sir!
+                                            he
+                                            always charges the nominal fee without any greed and attitude. May Almighty
+                                            give
+                                            you
+                                            more strength and opportunity to support the society. Thank you sir!
+                                        </p>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- Masonry grid for Slide 1 -->
+                            <div class="row">
+                                <div class="col-xl-4 col-md-6 masonry-item mb-4">
+                                    <div class="testimonial-card bg-white p-4">
+                                        <h3 class="mb-3">Aaheli Gupta</h3>
+                                        <p>
+                                            <span>T</span>he best Advocate in Kolkata region with golden heart and he
+                                            takes
+                                            care
+                                            of my legal issues with utmost concern and he is so down to earth person. I
+                                            always
+                                            felt comfortable and gained confidence while reaching to him. He understands
+                                            the
+                                            client’s need and talks about the feasible option to solve our problem.
+                                            Lastly
+                                            he
+                                            always charges the nominal fee without any greed and attitude. May Almighty
+                                            give
+                                            you
+                                            more strength and opportunity to support the society. Thank you sir!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- Masonry grid for Slide 1 -->
+                            <div class="row">
+                              
+                                <div class="col-xl-4 col-md-6 masonry-item mb-4">
+                                    <div class="testimonial-card bg-white p-4">
+                                        <h3 class="mb-3">Aaheli Gupta</h3>
+                                        <p>
+                                            <span>T</span>he best Advocate in Kolkata region with golden heart and he
+                                            takes
+                                            care
+                                            of my legal issues with utmost concern and he is so down to earth person. I
+                                            always
+                                            felt comfortable and gained confidence while reaching to him. He understands
+                                            the
+                                            client’s need and talks about the feasible option to solve our problem.
+                                            Lastly
+                                            he
+                                            always charges the nominal fee without any greed and attitude. May Almighty
+                                            give
+                                            you
+                                            more strength and opportunity to support the society. Thank you sir!
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- Add more Masonry items as needed -->
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- Add swiper navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+        <!-- Clients testimonial end -->
+
+        <!-- Simple bg start -->
+        <section class="simple-bg">
+            <div>
+                <img src="assets/images/bg/bg.jpg" alt="">
+            </div>
+        </section>
+        <!-- Simple bg end -->
+
+        <!-- Get in touch start-->
+        <section class="get-in-touch">
+            <div class="container">
+                <div class="row pb-4">
+                    <div class="section-head text-center pb-4">
+                        <h2 class="section-title">GET IN TOUCH</h2>
+                        <p class="section-title-para d-none d-md-block">
+                            By providing your information below, you consent to our use of the provided details to
+                            contact
+                            you for a free <br> and confidential consultation. We assure you that your information will
+                            be
+                            treated with the utmost privacy <br> and will not be shared with any third parties without
+                            your
+                            explicit consent.
+                        </p>
+                        <p class="section-title-para d-md-none">
+                            By providing your information below, you consent to our use of the provided details to
+                            contact
+                            you for a free and confidential consultation. We assure you that your information will be
+                            treated with the utmost privacy and will not be shared with any third parties without your
+                            explicit consent.
+                        </p>
+                    </div>
+                </div>
+                <form>
+                    <div class="row">
+                        <div class="col-xl-6">
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput" class="form-label">Your Name:</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput2" class="form-label">Your Phone Number:</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput2">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput2" class="form-label">Appoiment for Which
+                                    Servervice:</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput2">
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Enter your full message:</label>
+                                <textarea class="form-control" id="message" name="text"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pt-md-5">
+                        <div class="get-touch-button text-center">
+                            <button type="submit" class="btn-fill text-white">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- Get in touch end-->
+
+        <!-- Office address start -->
+        <section class="address-section">
+            <div class="container">
+                <div class="row pb-4">
+                    <div class="section-head text-center pb-4">
+                        <h2 class="section-title text-uppercase">Our offices</h2>
+                        <p class="section-title-para text-capitalize d-none d-md-block">
+                            If you are looking for any legal advice or have questions, get in touch with <br> us or post
+                            your query using the button on the right
+                        </p>
+                        <p class="section-title-para text-capitalize d-md-none">
+                            If you are looking for any legal advice or have questions, get in touch with us or post
+                            your query using the button on the right
+                        </p>
+                    </div>
+                </div>
+                <div class="row mb-5 pb-md-5 border-bottom">
+                    <div class="col-xl-4 col-6">
+                        <div class="address-box text-center border-end mb-4">
+                            <img src="assets/images/icons/location.png" class="mb-2">
+                            <h4 class="mb-2">Delta House</h4>
+                            <p>Delta House, Lal Dighi, <br>
+                                B.B.D. Bagh, Kolkata, <br>
+                                West Bengal 700001</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-6">
+                        <div class="address-box text-center border-end no-border mb-4">
+                            <img src="assets/images/icons/location.png" class="mb-2">
+                            <h4 class="mb-2">Kalikapur Road</h4>
+                            <p>18/3 Kalikapur Road,<br>
+                                Premises No. 1235, Kolkata,<br>
+                                West Bengal 700099</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-12">
+                        <div class="address-box text-center mb-4">
+                            <img src="assets/images/icons/location.png" class="mb-2">
+                            <h4 class="mb-2">Taltala Office</h4>
+                            <p>38A, Abdul Halim Ln,<br>
+                                Maula Ali, Taltala, Kolkata,<br>
+                                West Bengal 700014</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-2 pb-5">
+                    <div class="container">
+                        <div class="col-xl-12 text-center">
+                            <div class="social-media pb-3 d-md-none">
+                                <ul class="d-flex justify-content-center">
+                                    <li><a href="#"><img src="assets/images/icons/fb.png" alt="Facebook"></a></li>
+                                    <li><a href="#"><img src="assets/images/icons/insta.png" alt="Instaghram"></a></li>
+                                    <li><a href="#"><img src="assets/images/icons/twitter.png" alt="twitter"></a></li>
+                                    <li><a href="#"><img src="assets/images/icons/whts-app.png" alt="what's app"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="phone-mail pb-md-5">
+                                <h2 class="d-none d-md-block">+91-7044191141 &nbsp; <span>/</span> &nbsp;
+                                    info.pkslegal@gmail.com</h2>
+                                <h2 class="d-md-none">+91-7044191141 info.pkslegal@gmail.com</h2>
+                            </div>
+                            <div class="social-media d-none d-md-block">
+                                <ul class="d-flex justify-content-center">
+                                    <li><a href="#"><img src="assets/images/icons/fb.png" alt="Facebook"></a></li>
+                                    <li><a href="#"><img src="assets/images/icons/insta.png" alt="Instaghram"></a></li>
+                                    <li><a href="#"><img src="assets/images/icons/twitter.png" alt="twitter"></a></li>
+                                    <li><a href="#"><img src="assets/images/icons/whts-app.png" alt="what's app"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Office address end -->
+
+        <!-- Map section start -->
+        <section class="map-section">
+            <div class="mapouter">
+                <div class="gmap_canvas"><iframe width="100%" height="534" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=PKS Legal Advocates and Associates, Law Firm in Kolkata, High Court, CMM Court, Sealdah Court, Alipore Court 18/3 Kalikapur Road, Premises No. 1235, Kolkata, West Bengal 700099, India&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                        href="https://2yu.co">2yu</a><br>
+                    <style>
+                        .mapouter {
+                            position: relative;
+                            text-align: center;
+                            height: 534px;
+                            width: inherit;
+                        }
+
+                    </style><a href="https://embedgooglemap.2yu.co">html embed google map</a>
+                    <style>
+                        .gmap_canvas {
+                            overflow: hidden;
+                            background: none !important;
+                            height: 534px;
+                            width: inherit;
+                        }
+
+                    </style>
+                </div>
+            </div>
+        </section>
+        <!-- Map section end -->
+
+        <!-- Footer start -->
+        <footer class="position-relative">
+            <!-- Footer links start -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="footer-wrapper">
+                            <div class="footer-logo position-absolute">
+                                <img src="assets/images/logos/footer-logo.jpg" class="w-100">
+                            </div>
+                            <div class="footer-links py-3">
+                                <ul class="d-flex justify-content-center">
+                                    <li class="me-xl-3 me-md-2"><a href="#">Home</a></li>
+                                    <li class="me-xl-3 me-md-2">|</li>
+                                    <li class="me-xl-3 me-md-2"><a href="#">About Us</a></li>
+                                    <li class="me-xl-3 me-md-2">|</li>
+                                    <li class="me-xl-3 me-md-2"><a href="#">Services</a></li>
+                                    <li class="me-xl-3 me-md-2">|</li>
+                                    <li class="me-xl-3 me-md-2"><a href="#">Customer Reviews</a></li>
+                                    <li class="me-xl-3 me-md-2">|</li>
+                                    <li class="me-xl-3 me-md-2"><a href="#">Partners</a></li>
+                                    <li class="me-xl-3 me-md-2">|</li>
+                                    <li class="me-xl-3 me-md-2"><a href="#">Write to Us</a></li>
+                                    <li class="me-xl-3 me-md-2">|</li>
+                                    <li class="me-xl-3 me-md-2 d-none d-md-block"><a href="#">Book Appointment</a></li>
+                                    <li class="me-xl-3 me-md-2">|</li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer links end -->
+
+            <!-- Copyright start -->
+            <div class="copy-right text-center d-flex justify-content-center align-items-center">
+                PKS Legal Advocates & Associates 2023. All Rights Reserved
+            </div>
+            <!-- Copyright end -->
+        </footer>
+        <!-- Footer end -->
 
 
-    <!-- Main js -->
-    <script src="assets/js/main.js"></script>
+        <!-- Main js -->
+        <script src="assets/js/main.js"></script>
 
-    <!-- Bootstrap 5 js -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+        <!-- Bootstrap 5 js -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+            </script>
 
-    <!-- Masonary js -->
-    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"></script>
+        <!-- Masonary js -->
+        <!-- Add Bootstrap and Masonry JS scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"></script>
 
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
-    <!-- Initialize Swiper for client -->
-    <script>
-        var swiper = new Swiper(".clientSwiper", {
-            loop: true,
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-            breakpoints: {
-                547: {
-                    slidesPerView: 1,
-                    spaceBetween: 20,
-                },
-                768: {
-                    slidesPerView: 2,
-                    spaceBetween: 40,
-                },
-                992: {
-                    slidesPerView: 5,
-                    spaceBetween: 50,
-                },
-                1200: {
-                    slidesPerView: 5,
-                    spaceBetween: 50,
-                },
-            },
-        });
-    </script>
+        <!-- Swiper JS -->
 
-    <!-- Initialize Swiper for testimonial -->
-    <script>
-        var swiper = new Swiper(".testimonialSwiper", {
-            slidesPerView: 1,
-            loop: true,
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-            // breakpoints: {
-            //     547: {
-            //         slidesPerView: 1,
-            //         spaceBetween: 20,
-            //     },
-            //     768: {
-            //         slidesPerView: 2,
-            //         spaceBetween: 40,
-            //     },
-            //     992: {
-            //         slidesPerView: 5,
-            //         spaceBetween: 50,
-            //     },
-            //     1200: {
-            //         slidesPerView: 1,
-            //         spaceBetween: 50,
-            //     },
-            // },
-        });
-    </script>
+        <!-- Initialize Swiper for client -->
+        <script>
+            var swiper = new Swiper('.clientSwiper', {
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                    loop: true, // Enable loop
+                    autoplay: {
+                        delay: 3000, // Autoplay delay in milliseconds
+                    },
+                    slidesPerView: 1, // Number of slides per view
+                    spaceBetween: 20, // Space between slides
+                    breakpoints: {
+                        // Responsive breakpoints
+                        576: {
+                            slidesPerView: 1,
+                        },
+                        767: {
+                            slidesPerView: 3,
+                        },
+                        992: {
+                            slidesPerView: 4,
+                        },
+                        1200: {
+                            slidesPerView: 5,
+                        },
+                    },
+                });
+        </script>
 
-    <!-- Initialize Masonary for client testimonial -->
-    <!-- <script>
+
+        <!-- Initialize Masonary for client testimonial -->
+        <!-- <script>
         var grid = document.querySelector('.grid');
         var msnry = new Masonry(grid, {
             // options...
@@ -1237,18 +1509,68 @@
         });
     </script> -->
 
-    <!-- Initialize Service Swiper -->
-    <script>
-        var swiper = new Swiper(".serviceSwiper", {
-            slidesPerView: 1,
-            loop: true,
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
-    </script>
+        <!-- Initialize Service Swiper -->
+        <script>
+            var swiper = new Swiper(".serviceSwiper", {
+                slidesPerView: 1,
+                centeredSlides: true,
+                loop: true,
+                autoplay: {
+                    delay: 2000,
+                    disableOnInteraction: false,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
 
-</body>
+        </script>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var swiper = new Swiper('.swiper-container', {
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                    loop: true, // Enable loop
+                    autoplay: {
+                        delay: 3000, // Autoplay delay in milliseconds
+                    },
+                    slidesPerView: 1, // Number of slides per view
+                    spaceBetween: 20, // Space between slides
+                    breakpoints: {
+                        // Responsive breakpoints
+                        576: {
+                            slidesPerView: 1,
+                        },
+                        768: {
+                            slidesPerView: 1,
+                        },
+                        992: {
+                            slidesPerView: 1,
+                        },
+                        1200: {
+                            slidesPerView: 1,
+                        },
+                    },
+                });
+
+                // Initialize Masonry for each slide after slide change
+                swiper.on('slideChange', function () {
+                    var activeSlide = swiper.slides[swiper.activeIndex];
+                    var masonryContainer = activeSlide.querySelector('.row');
+
+                    new Masonry(masonryContainer, {
+                        itemSelector: '.masonry-item',
+                        columnWidth: '.masonry-item',
+                        percentPosition: true
+                    });
+                });
+            });
+        </script>
+
+    </body>
 
 </html>
